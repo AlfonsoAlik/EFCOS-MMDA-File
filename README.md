@@ -10,3 +10,5 @@ How to run the web application:
 4. run poc_efcos in the command prompt by typing: "python poc_efcos.py" on the EFCOS files or  "python run poc.py" without the quotation marks for the MMDA files. If you want to change the dataset to your own, you can change the line: df = pd.read_csv('Montalban_ScienceGarden_Consolidated.csv') to your own csv file.
 5. run app_efcos.
 6. You can now view the results on the web application
+
+Additional notes: see pdf file for the research.
