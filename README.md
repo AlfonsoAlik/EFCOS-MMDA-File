@@ -6,12 +6,15 @@ Do a comparative study of machine learning algorithms to predict river and urban
 ## methods Used
 * Data was gathered in goverment agencies throughout Metro Manila such as Metropolitan Manila Development Authority (MMDA), Effective Flood Control Operation System (EFCOS), and Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAG-ASA)
 [CSV Preview](https://github.com/AlfonsoAlik/EFCOS-MMDA-File/blob/main/Angono/Angono_NAIA_Consolidated_Data.csv)
+![CSV Contents](Screenshots/Angono_dataset)
 * Machine learning algorithms used were Random Forest (RF), Artificial Neural Network (ANN), and Support Vector Machines (SVM). The algorithms were used to predict the flood height and water level for urban and river floods respectively.
 * python was used to implement the algorithms. In addition, visualizations were also done using matplotlib and seaborn
-  ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Angono Streamlit Preview](Screenshots/matplotlib.png)
 * The evaluation methodologies used for the models are Cross-Validation and Linear Regression showing the standard deviation, average score accuracy, and mean squared error to fully determine which of the algorithms were effective
+![Random Forest Cross-Validation Visualization](Screenshots/RF_Angono.png)
+![Random Forest Mean Squared Error Visualization](Screenshots/Angono_MSE.png)
 * We used open-source Python framework which is steamlit to create an application which shows the possible flood height depending on the precipitation
-
+![Angono Streamlit Preview](Screenshots/Angono_Streamlit.png)
 ## Result
 *The result show that Random Forest is the most effective machine learning model using the Philippine data. In urban flood prediction, RF displayed the highest accuracy at 61% while having a low mean squared error of 31 making it the most balanced model than the others. Similarly, RF demonstrated the highest average accuracy at 99.9511% in five rivers while maintaining the lowest mean squared error across seven rivers out of nine.
 
