@@ -9,7 +9,7 @@ Do a comparative study of machine learning algorithms to predict river and urban
 ![CSV Contents](Screenshots/Angono_dataset.png)
 * python was used to implement the algorithms. In addition, visualizations were also done using matplotlib and seaborn
 [CSV Preview](jupyter notebooks/flood-data-with-svm-efcos-Angono.ipynb)
-[Jupyter Notebook](jupyter\ notebooks/flood-data-with-svm-efcos-Angono.ipynb)
+[Jupyter Notebook]("jupyter notebooks/flood-data-with-svm-efcos-Angono.ipynb")
 * The evaluation methodologies used for the models are Cross-Validation and Linear Regression showing the standard deviation, average score accuracy, and mean squared error to fully determine which of the algorithms were effective
 ![Random Forest Cross-Validation Visualization](Screenshots/RF_Angono.png)
 ![Random Forest Mean Squared Error Visualization](Screenshots/Angono_MSE.png)
