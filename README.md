@@ -1,15 +1,15 @@
 # A Comparative Study Using Machine Learning and Flood Data to Predict Floods
 This is my undergraduate thesis which I did along with two of my groupmates in Ateneo de Naga University.
-## objective 
+## Objective 
 Do a comparative study of machine learning algorithms to predict river and urban flood height using weather data and flood reports from various local government agencies in the Philippines.
 
-## methods Used
+## Methods Used
 * Data was gathered in goverment agencies throughout Metro Manila such as Metropolitan Manila Development Authority (MMDA), Effective Flood Control Operation System (EFCOS), and Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAG-ASA)
 [CSV Preview](https://github.com/AlfonsoAlik/EFCOS-MMDA-File/blob/main/Angono/Angono_NAIA_Consolidated_Data.csv)
-![CSV Contents](Screenshots/Angono_dataset)
-* Machine learning algorithms used were Random Forest (RF), Artificial Neural Network (ANN), and Support Vector Machines (SVM). The algorithms were used to predict the flood height and water level for urban and river floods respectively.
+![CSV Contents](Screenshots/Angono_dataset.png)
 * python was used to implement the algorithms. In addition, visualizations were also done using matplotlib and seaborn
-![Angono Streamlit Preview](Screenshots/matplotlib.png)
+[CSV Preview](jupyter notebooks/flood-data-with-svm-efcos-Angono.ipynb)
+[Jupyter Notebook](jupyter\ notebooks/flood-data-with-svm-efcos-Angono.ipynb)
 * The evaluation methodologies used for the models are Cross-Validation and Linear Regression showing the standard deviation, average score accuracy, and mean squared error to fully determine which of the algorithms were effective
 ![Random Forest Cross-Validation Visualization](Screenshots/RF_Angono.png)
 ![Random Forest Mean Squared Error Visualization](Screenshots/Angono_MSE.png)
