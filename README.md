@@ -5,6 +5,7 @@ Do a comparative study of machine learning algorithms to predict river and urban
 
 ## methods Used
 * Data was gathered in goverment agencies throughout Metro Manila such as Metropolitan Manila Development Authority (MMDA), Effective Flood Control Operation System (EFCOS), and Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAG-ASA)
+[CSV Preview](https://gist.github.com/username/gistid)
 * Machine learning algorithms used were Random Forest (RF), Artificial Neural Network (ANN), and Support Vector Machines (SVM). The algorithms were used to predict the flood height and water level for urban and river floods respectively.
 * python was used to implement the algorithms. In addition, visualizations were also done using matplotlib and seaborn
   ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
