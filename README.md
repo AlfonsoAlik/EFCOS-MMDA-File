@@ -1,5 +1,5 @@
 # A Comparative Study Using Machine Learning and Flood Data to Predict Floods
-This is my undergraduate thesis which I did along with two of my groupmates in Ateneo de Naga University
+This is my undergraduate thesis which I did along with two of my groupmates in Ateneo de Naga University.
 ## objective 
 Do a comparative study of machine learning algorithms to predict river and urban flood height using weather data and flood reports from various local government agencies in the Philippines.
 
@@ -7,7 +7,7 @@ Do a comparative study of machine learning algorithms to predict river and urban
 * Data was gathered in goverment agencies throughout Metro Manila such as Metropolitan Manila Development Authority (MMDA), Effective Flood Control Operation System (EFCOS), and Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAG-ASA)
 * Machine learning algorithms used were Random Forest (RF), Artificial Neural Network (ANN), and Support Vector Machines (SVM). The algorithms were used to predict the flood height and water level for urban and river floods respectively.
 * python was used to implement the algorithms. In addition, visualizations were also done using matplotlib and seaborn
-[alt text](http://url/to/img.png)
+  ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 * The evaluation methodologies used for the models are Cross-Validation and Linear Regression showing the standard deviation, average score accuracy, and mean squared error to fully determine which of the algorithms were effective
 * We used open-source Python framework which is steamlit to create an application which shows the possible flood height depending on the precipitation
 
